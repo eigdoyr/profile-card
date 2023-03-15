@@ -1,0 +1,38 @@
+:root {
+  --mint: hsl(145, 100%, 90%);
+  --desaturated-blue: hsl(229deg 94.16% 93.44%);
+  --grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --dark-blue: hsl(229deg 9.6% 15.85%);
+  --blue: hsl(227, 92%, 67%);
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--mint);
+  background-image: url(../assets/bg-pattern-top.svg),
+    url(../assets/bg-pattern-bottom.svg);
+  background-position: top -32rem left -45rem, bottom -40rem right -43rem;
+  background-repeat: no-repeat;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (width>=1440px) {
+  body {
+    background-position: top -32rem left -15rem, bottom -33rem right -14rem;
+  }
+}
