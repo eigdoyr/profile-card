@@ -69,7 +69,7 @@ main {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  border-radius: 1em;
+  border-radius: 1em 1em 0 0;
   z-index: 999;
 }
 
